@@ -1,0 +1,118 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[document]{ragged2e}
+\usepackage{algpseudocode}
+\usepackage[]{algorithmicx}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage[]{listings}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{flafter}
+\usepackage{subfig}
+\usepackage{dsfont}
+\graphicspath{ {images/} }
+
+\begin{document}
+
+\begin{titlepage}
+	\centering
+	\includegraphics[width=0.15\textwidth]{IIIT-B_logo.jpg}\par\vspace{1cm}
+	{\scshape\LARGE International Institute of Information Technology, Bangalore \par}
+	\vspace{1cm}
+	{\scshape\Large Business Understanding Document\par}
+	{\Large DS 707 Data Analytics\par}
+	\vspace{1.5cm}
+	{\huge\bfseries Crytpocurrency\par}
+	\vspace{2cm}
+	{\Large\itshape Akanksha Dwivedi - MT2016006\par}
+	{\Large\itshape Hitesha Mukherjee - MS2016007\par}
+	{\Large\itshape Nayna Jain - MS2017003\par}
+	{\Large\itshape Tarini Chandrashekhar - MT2016144\par}
+	\vfill
+	Instructors : \par
+	Prof. Ramanathan Chandrashekhar
+	\par
+	Prof. Uttam Kumar
+
+	\vfill
+
+% Bottom of the page
+	{\large \today\par}
+\end{titlepage}
+
+\newpage
+
+\tableofcontents
+
+
+\newpage
+\justify
+\section{Determining Business Objectives}
+\subsection{Background}
+\textbf{Cryptocurrency} (built over Blockchains), a mysterious new technology emerged seemingly out of nowhere, at its most fundamental level is a breakthrough in computer science – one that builds on 20 years of research into cryptographic currency, and 40 years of research in cryptography, by thousands of researchers around the world. It gives a way for one Internet user to transfer a unique piece of digital property to another Internet user, such that the transfer is guaranteed to be safe and secure, everyone knows that the transfer has taken place, and nobody can challenge the legitimacy of the transfer.
+\newline
+Blockchains (and the consensus protocols that support them) were invented as a result of developers trying to solve this bold problem of how to create digital, untraceable money. By combining cryptography, game theory, economics, and computer science, they managed to create an entirely new set of tools for building decentralized systems.
+
+
+\subsection{Business Goals}
+The business objectives of this project undertaking are:
+\begin{itemize}
+    \item  To understand/describe the sudden surge in interest in cryptocurrencies recently.
+    \item  To explore the volatile/unstable nature of the cryptocurrencies and co-relation between price fluctuations among them. 
+    \item  To be able to predict the future prices of the cryptocurrencies.
+    \item  To identify  and understand factors contributing to the overall behaviour of the cryptocurrencies, so that the prediction becomes easier.
+    \item  To identify fake or dangerous users, thereby preventing theft.
+    \item  To grant cryptocurrency more legitimacy and thereby, greater adoption by performing in-depth analysis and pattern recognition across thousands of transactions, ensuring that users are protected.
+\end{itemize}
+
+\subsection{Business Success Criteria}
+The success of our analytics endeavour depends on the value addition provided in terms of new information which the potential crypotocurrency adopters could benefit from and make use of, in their investment decisions. 
+\begin{itemize}
+    \item Correct prediction of future prices of blockchain tokens.
+    \item Highlight fraudulent use and/or theft of cryptocurrency.
+    \item Identification of factors leading to fluctuations in the currency evaluation of tokens.
+    \item Conclusion of the better currency from the predicted trends and volatility. 
+\end{itemize}
+\subsection{Business benefits}
+\begin{itemize}
+    \item \textbf{Exploratory and Descriptive Analytics:} Based on analyzing the historical prices of the different cryptocurrencies, we can predict the trends for the same, which will help potential investors make informed decisions.
+    \item \textbf{Classification:} Identifying fraudulent transactions will help distinguish between legitimate and illegitimate transactions, preventing the case of a dishonest network and avoiding usage of the network for running scams.
+    \item \textbf{Clustering:}
+    \item \textbf{Association rules:} There can be established definite correlation between various factors and prices of the cryptocurrencies. This means the data can be analysed for frequent if-then relationships using the criteria support and confidence to identify the most important relationships. This eventually leads to predicting blockchain behaviour.
+\end{itemize}
+\subsection{Target Users}
+Our analytics on cryptocurrencies will not only benefit the miners, who are actively engaged in the network but many other stakeholders who have actively been interested on the use of cryptocurrencies ever since its advent but have been holding back because of the lack of predictive information on its trends and patterns.
+\begin{itemize}
+    \item The miners who validate transactions could benefit from the future prediction of a token price to know whether it's worth validating or not.
+    \item Individual investors participating in a token sale would know the criteria before hand, to evaluate token sales.
+    \item Consumers who pay with Cryptocurrency which is evidently more stable.
+    \item Merchants who accept Cryptocurency will come to know about the fraudulent transactions, which will help them avoid and report those users.
+    \item Entrepreneurs who are building new applications on top of blockchain technology can choose the more versatile blockchain technology based on the tokens used on top of it. 
+\end{itemize}
+
+\section{Assessing the situation}
+\textbf{What is a blockchain}?
+At its core, a blockchain is a surprisingly simple and elegant data structure. It’s basically just a linked list with one important augmentation — each block contains a cryptographic hash of the previous block. This creates an effectively unalterable chain of blocks and their fingerprints, stretching back to the original block. If everyone in your system replicates this linked list (and verifies its legitimacy by repeating the cryptographic hash functions), it will implement a slow and somewhat crude distributed database that’s resistant to tampering.
+
+\textbf{INSERT THE PICTURE HERE!!}
+
+\section{Determining Data mining goals}
+\subsection{Data Mining Goals}
+\begin{itemize}
+\item How did the historical prices / market capitalization of various currencies change over time?
+\item Predicting the future price of the currencies.
+\item Which currencies are more volatile and which ones are more stable?
+\item How does the price fluctuations of currencies correlate with each other?
+\item Seasonal trend in the price fluctuations.
+\end{itemize}
+
+\subsection{Data Mining Success Criteria}
+\begin{itemize}
+    \item The accuracy of regression model which predicts the prices of cryptocurrencies for times that have already elapsed. The accuracy of this model measures the success percentage of our exploratory and predictive analytics on this historical data.
+    \item 
+\end{itemize}
+
+\section{Producing a Project Plan}
+\end{document}
