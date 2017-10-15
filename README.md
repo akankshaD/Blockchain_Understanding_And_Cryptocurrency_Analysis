@@ -31,8 +31,7 @@ Reading Literature:
 - https://hackernoon.com/bitcoin-ethereum-blockchain-tokens-icos-why-should-anyone-care-890b868cec06
 - https://medium.freecodecamp.org/blockchain-is-our-first-22nd-century-technology-d4ad45fca2ce
 - https://www.linkedin.com/pulse/blockchain-absolute-beginners-mohit-mamoria/
-
-
+- https://arxiv.org/pdf/1611.03941.pdf
 
 What is a 'Blockchain'
 A blockchain is a digitized, decentralized, public ledger of all cryptocurrency transactions. Constantly growing as ‘completed’ blocks (the most recent transactions) are recorded and added to it in chronological order, it allows market participants to keep track of digital currency transactions without central recordkeeping. Each node (a computer connected to the network) gets a copy of the blockchain, which is downloaded automatically.
