@@ -62,3 +62,39 @@ Access to Everyone: There are approximately 2.2 billion individuals with access 
 Lower Fees: There aren’t usually transaction fees for cryptocurrency exchanges because the miners are compensated by the network (Side note: This is the case for now). Even though there’s no bitcoin/cryptocurrency transaction fee, many expect that most users will engage a third-party service, such as Coinbase, creating and maintaining their own bitcoin wallets.
 
 Immediate Settlement:  Bitcoin contracts can be designed and enforced to eliminate or add third party approvals, reference external facts, or be completed at a future date or time for a fraction of the expense and time required to complete traditional asset transfers.
+
+
+Project Plan:
+
+Data mining can be defined as the extraction of implicit, previously unknown and potentially useful information from data.Machine learning provides the technical basis for data mining.In this project, we attempt to apply machine-learning algorithms to predict Bitcoin price.Our data set consists
+of over many features relating to the Bitcoin and payment network recorded over a period of time. Using this information we were able to predict the sign of the daily price change.As this is a task with a known target it is a supervised machine learning task although some pre-processing can take advantage of
+unsupervised learning methods. We are planning to use Random Forest for preprocessing and feature selection. For our choice of Algorithms we turn to Logistic Regression (LR) and Linear Discriminant Analysis (LDA) depending on the performance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
