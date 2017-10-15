@@ -93,10 +93,28 @@ Our analytics on cryptocurrencies will not only benefit the miners, who are acti
 \end{itemize}
 
 \section{Assessing the situation}
-\textbf{What is a blockchain}?
-At its core, a blockchain is a surprisingly simple and elegant data structure. It’s basically just a linked list with one important augmentation — each block contains a cryptographic hash of the previous block. This creates an effectively unalterable chain of blocks and their fingerprints, stretching back to the original block. If everyone in your system replicates this linked list (and verifies its legitimacy by repeating the cryptographic hash functions), it will implement a slow and somewhat crude distributed database that’s resistant to tampering.
+\subsection{Inventory Of Resources}
 
-\textbf{INSERT THE PICTURE HERE!!}
+\subsection{Requirements, Assumptions and Constraints}
+
+\subsection{Risks and Contingencies}
+
+\subsection{Terminology}
+\textbf{What is a 'Blockchain' ?}
+A blockchain is a digitized, decentralized, public ledger of all cryptocurrency transactions. Constantly growing as ‘completed’ blocks (the most recent transactions) are recorded and added to it in chronological order, it allows market participants to keep track of digital currency transactions without central record keeping. Each node (a computer connected to the network) gets a copy of the blockchain, which is downloaded automatically.
+
+Originally, it was developed as the accounting method for the virtual currency Bitcoin, blockchains – which uses what's known as \textbf{distributed ledger technology (DLT)}. Currently, the technology is primarily used to verify transactions, within digital currencies though it is possible to digitize, code and insert practically any document into the blockchain. Doing so creates an indelible record that cannot be changed; furthermore, the record’s authenticity can be verified by the entire community using the blockchain instead of a single centralized authority.
+
+The blockchain technology and respective cryptocurrencies has gained popularity due to the following advantages:
+\begin{itemize}
+    \item Efficiencies resulting from DLT can add up to some serious cost savings. DLT systems make it possible for businesses and banks to streamline internal operations, dramatically reducing the expense, mistakes, and delays caused by traditional methods for reconciliation of records. Electronic ledgers are much cheaper to maintain than traditional accounting systems; the employee headcount in back offices can be greatly reduced. Nearly fully automated DLT systems result in far fewer errors and the elimination of repetitive confirmation steps. Minimizing the processing delay also means less capital being held against the risks of pending transactions.
+    
+    \item Cryptocurrency uses a “push” mechanism that allows the cryptocurrency holder to send exactly what he or she wants to the merchant or recipient with no further information, thus preventing identity theft.
+    
+    \item Bitcoin contracts can be designed and enforced to eliminate or add third party approvals, reference external facts, or be completed at a future date or time for a fraction of the expense and time required to complete traditional asset transfers, resulting in immediate settlement.
+\end{itemize}
+
+\subsection{Costs and Benefits}
 
 \section{Determining Data mining goals}
 \subsection{Data Mining Goals}
@@ -106,18 +124,21 @@ At its core, a blockchain is a surprisingly simple and elegant data structure. I
 \item Which currencies are more volatile and which ones are more stable?
 \item How does the price fluctuations of currencies correlate with each other?
 \item Seasonal trend in the price fluctuations.
+\item Market Trends visualization by constructing cross correlation maps between different cryptographic currencies. 
+\item Blockchain Statistical Analysis of various fundamental factors affecting the network to draw basic inferences from the Bitcoin blockchain.
 \end{itemize}
 
 \subsection{Data Mining Success Criteria}
+The process of data mining would be judged successfully from:
 \begin{itemize}
-    \item The accuracy of regression model which predicts the prices of cryptocurrencies for times that have already elapsed. The accuracy of this model measures the success percentage of our exploratory and predictive analytics on this historical data.
+    \item The accuracy of different regression models (say specificity and precision) which predicts the sign of future change in price of cryptocurrencies at varying levels of granularity(eg 10 minute or 10 second interval time points). This evaluation metric measures the success percentage of our exploratory and predictive analytics on the historical data of cryptocurrrencies.
+    \item The R-square error of the predictive models estimating the change in prices or the future prices of the crypotcurrencies.
+    \item Visualizations of the descriptive analytics done on various crytocurrencies and comparing individual cryptographic currencies with the overall market.
     \item 
 \end{itemize}
 
-\section{Project Plan}
+\section{Producing a Project Plan}
+\subsection{Project Plan}
 
-Data mining can be defined as the extraction of implicit, previously unknown and potentially useful information from data.Machine learning provides the technical basis for data mining.In this project, we attempt to apply machine-learning algorithms to predict Bitcoin price.Our data set consists
-of over many features relating to the Bitcoin and payment network recorded over a period of time. Using this information we were able to predict the sign of the daily price change.As this is a task with a known target it is a supervised machine learning task although some pre-processing can take advantage of
-unsupervised learning methods. We are planning to use Random Forest for preprocessing and feature selection. For our choice of Algorithms we turn to Logistic Regression (LR) and Linear Discriminant Analysis (LDA) depending on the performance.
-
+\subsection{Initial Assessment of Tools and Techniques}
 \end{document}
