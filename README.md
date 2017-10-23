@@ -3,13 +3,13 @@ Exploratory Analytics on Cryptocurrencies
 
 Our Dataset:
 
-For all cryptocurrencies
-- https://www.kaggle.com/jessevent/all-crypto-currencies
+Top 10 cryptocurrencies
+- https://www.kaggle.com/sudalairajkumar/cryptocurrencypricehistory
 
 Other Similar Datasets:
 
-Top 10 cryptocurrencies
-- https://www.kaggle.com/sudalairajkumar/cryptocurrencypricehistory
+For all cryptocurrencies
+- https://www.kaggle.com/jessevent/all-crypto-currencies
 
 Top 100 cryptocurrencies
 - https://www.kaggle.com/natehenderson/top-100-cryptocurrency-historical-data/data
