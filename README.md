@@ -37,8 +37,17 @@ Reading Literature:
 - Trading Bitcoin and Online Time Series Prediction -  Technical Paper By -  Muhammad J Amjad mamjad@mit.edu, Operations Research Center - Massachusetts Institute of Technology - Cambridge, MA 02139, USA ; Devavrat Shah devavrat@mit.edu - Department of Electrical Engineering and Computer Science - Massachusetts Institute of Technology - Cambridge, MA 02139, USA
 - Predicting the price of Bitcoin using Machine Learning - MSc Reseach Project Report - Data Analytics - Sean McNally - x15021581 - School of Computing - National College of Ireland - Supervisor: Dr. Jason Roche
 
+## Milestone 1 - Business Understanding
+
+## Milestone 2
+
+### Data Understanding
+-Data Quality assessment
+-Missing values prediction
 
 
+### Data Preparation
+-Normalisation of the Bitcoin and Ethereum data
 
 
 
