@@ -45,6 +45,10 @@ Reading Literature:
 -Data Quality assessment
 -Missing values prediction
 
+Imputing missing data
+- https://datascienceplus.com/imputing-missing-data-with-r-mice-package/
+- https://www.analyticsvidhya.com/blog/2016/03/tutorial-powerful-packages-imputing-missing-values/
+- https://cran.r-project.org/doc/contrib/de_Jonge+van_der_Loo-Introduction_to_data_cleaning_with_R.pdf
 
 ### Data Preparation
 -Normalisation of the Bitcoin and Ethereum data
