@@ -42,6 +42,18 @@ Reading Literature:
 ## Milestone 2
 
 ### Data Understanding
+
+There are two types of datasets:
+
+1. Related to daily trading on cryptocurrency. This includes:
+Date, Low, High, Close, Open, Volume, MarketCap
+All the data except Date is of numeric and continuous type.
+
+2. Related to other attributes specific to particular cryptocurrency
+Eg. bitcoin_dataset. These includes hash transactions, no of transaction
+per block, block size. This type of data is available only for 
+bitcoin and ethereum.
+
 -Data Quality assessment
 -Missing values prediction
 
@@ -53,8 +65,34 @@ Imputing missing data
 ### Data Preparation
 -Normalisation of the Bitcoin and Ethereum data
 
+Dataset used is bitcoin_price.csv
 
+Though all the features(attributes) are in numeric format except Date,
+but the values in Volume/Market Capitalization are very high to use them
+for computation. For that reason, the data is normalized for all the columns
+to bring them to same scale.
 
+To noramlize the data, following formula is used:
+(value - average)/(standard deviation).
+
+http://www.statisticshowto.com/normalized/
+http://www.dataminingblog.com/standardization-vs-normalization/
+
+Since the dataset has lot of outliers because of recent large surge in the prices,
+z-score mechanism rather than (x - xmin)/(xmax-xmin).
+
+Only the volume feature has missing values. There are multiple mechanims to handle
+missing values eg:
+
+1 Ignore the rows with missing values
+2 Fill the missing values using mean/median
+3 Use the regression and predict the missing values.
+
+By opting 1, the data useful from other columns could have also been lost. And
+option 2 was not useful because this dataset has many outliers and so using
+option 2 could have been given biased values. So, option 3 is opted.
+Linear Regression is used for continuous data and since the attribute Volume is
+continuous, this model is used for prediction.
 
 
 
