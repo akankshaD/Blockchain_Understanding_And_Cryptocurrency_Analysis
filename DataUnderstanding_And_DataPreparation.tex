@@ -1,0 +1,101 @@
+%% LyX 2.2.3 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{babel}
+\begin{document}
+
+\title{Data Understanding and Data Preparation}
+\maketitle
+
+\section{Data Understanding}
+
+\subsection{Initial Data Collection}
+
+The source of data is kaagle.com which has the recently and regularly
+updated cryptocurrency data.
+
+Existing Data:
+
+Daily Trading Data:
+
+Handcrafted Data:
+
+Cryptocurrency Feature Set Data:
+
+\subsection{Describing Data}
+
+Amount of Data: Data is of medium sized. There were three different
+historical data available. One being very large in amount. And other
+being very small. THis dataset has around 5 years historical data
+with regular updates.
+
+\subsubsection{Dataset:}
+
+Daily Trading Data: Date, Open, High, Low, Close, Volume, Marketcap
+(5 years data). It has 1620 rows and 7 attributes.
+
+Features Data: Available only for bitcoin and ethereum.
+
+Bitcoin Attributes:
+
+Ethereum Attributes:
+
+\subsubsection{Value Types:}
+
+Daily Trading Data: Value Types is Date and Numeric. Numeric data
+is of continuous type
+
+Bitcoin Dataset: 
+
+Ethereum Dataset:
+
+\subsubsection{Data Insights}
+
+The Pricing data is good to see the volatility trend of cryptocurrency.
+Volume and Marketcapitalization data helps in creating models for
+predicting future prices.
+
+\subsection{Data Quality}
+
+All data is in .csv format and has consistent delimiters.
+
+Since the data in different attributes are of different units. It
+needs normalization.
+
+As such data is clean and consistent, we do fine some percentage of
+missing values. 
+
+bitcoin\_price has some initial 2 months data for Volume missing
+
+bitcoin\_dataset has around 0.23\% missing values overall. Since this
+is a very small percentage, we consider these as ignorable. 
+
+We didnt' find any data errors or coding inconsistencies as such.
+
+No spelling inconsistencies
+
+No coding inconsistencies or bad metadata is found.
+
+\section{Data Preparation}
+
+\subsection{Data Cleaning}
+
+\subsubsection{Missing Data}
+
+\subsubsection{Data Errors}
+
+\subsubsection{Measurement Errors}
+
+\subsection{Derived Attributes}
+
+Average Daily Price - Calculated using average of High and Low Daily
+Prices. It can be used to calculate moving average.
+
+\subsection{Formatting of Data}
+
+Date has to be formatted.
+
+
+\end{document}
