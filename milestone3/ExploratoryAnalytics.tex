@@ -1,0 +1,87 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[document]{ragged2e}
+\usepackage{algpseudocode}
+\usepackage[]{algorithmicx}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage[]{listings}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{flafter}
+\usepackage{subfig}
+\usepackage{dsfont}
+\graphicspath{ {images/} }
+
+\begin{document}
+
+\begin{titlepage}
+	\centering
+	\includegraphics[width=0.15\textwidth]{IIIT-B_logo.jpg}\par\vspace{1cm}
+	{\scshape\LARGE International Institute of Information Technology, Bangalore \par}
+	\vspace{1cm}
+	{\scshape\Large Project Strategy Document\par}
+	{\Large  DS 707 Data Analytics\par}
+	\vspace{1.5cm}
+	{\huge\bfseries Exploratory Analytics and Classification \par}
+	\vspace{2cm}
+	{\Large\itshape Akanksha Dwivedi - MT2016006\par}
+	{\Large\itshape Hitesha Mukherjee - MS2016007\par}
+	{\Large\itshape Nayna Jain - MS2017003\par}
+	{\Large\itshape Tarini Chandrashekhar - MT2016144\par}
+	\vfill
+	Instructors : \par
+	Prof. Ramanathan Chandrashekhar
+	\par
+	Prof. Uttam Kumar
+
+	\vfill
+% Bottom of the page
+	{\large \today\par}
+\end{titlepage}
+
+\newpage
+
+\tableofcontents
+
+\newpage
+\justify
+
+\
+
+\section{Data Exploration}
+
+\subsection {Introduction}
+Multivariate time series (MTS) data sets are common in many multimedia, medical, process industry and financial applications such as gesture recognition, video sequence matching, EEG/ECG data analysis or prediction of abnormal situation or trend of stock price. MTS data sets are high dimensional as they consist of a series of observations of many variables (multidimendsional variable) at a time.
+For analysis of MTS data in order to extract knowledge, a compact representation is needed. For feature subset selection for MTS data sets, popular techniques for machine learning or pattern recognition problems are modified.\newline
+
+Any data mining or pattern recognition task such as
+knowledge/rule extraction, clustering or classification of data is preceeded by data preprocessing. Preprocessing of data is the process in which redundant or irrelevant information from the data is removed while the most discriminatory information is retained to represent the data in a compact manner. This preprocessing stage is often known as feature extraction or feature subset selection. The next step for classification
+or clustering is to design a similarity measure for
+identifying similar time series to make clusters or classes or to extract rules.
+
+\subsubsection {Time Series Classification}
+Our data is based on mining Bitcoin and Etherium crypto currencies. Basically our data is a Historical Timeseries data.It has wide variety of features.
+Time series classification is to build a classification model based on labelled time series and then use the model to predict the label of unlabelled time series. The way for time series classification with R is to extract and build features from time series data first, and then apply existing classification techniques, such as SVM, k-NN, neural networks, regression and decision trees, to the feature set.
+
+\subsection{Selecting Appropriate Classification
+Technique }
+
+\subsubsection {Supervised versus Unsupervised learning} This is one of the most fundamental distinctions between learning methods. Supervised learning involves developing descriptions froma pre-classified set of training examples, where the classifications are assigned by an expert in the problem domain. The aim is to produce descriptions that will accurately classify unseen test examples. In unsupervised learning, no prior classification is provided, and it is up to the learning scheme itself to generate one based on its analysis of the training data. \newline
+
+We have used Supervised Learning Model for classification of our dataset.In machine learning, support vector machines (SVMs, also support vector networks) are supervised learning models with associated learning algorithms that analyze data used for classification and regression analysis. 
+
+
+\subsection {Build Classification Model Parameter Setting}
+
+\subsubsection {Support Vector Machine for Classification}
+
+We have considered the Bitcoin Dataset which has 24 features or attributes in it. We have extracted 17 important features and build a subset of the data. We have further classified our data into training and test data. 70 percentage of data is classified as Training and the rest as testing data. We have used SVM Algorithmn to build the model based on the trainng data and predicted the Market\textunderscore Price based on Model built and Test Data
+
+\subsection {Visualizing Using Tableau}
+
+\subsection {Assessing the  Classification Model Built}
+
+
+\end{document}
