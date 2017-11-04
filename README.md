@@ -33,9 +33,9 @@ Reading Literature:
 - https://www.linkedin.com/pulse/blockchain-absolute-beginners-mohit-mamoria/
 - https://arxiv.org/pdf/1611.03941.pdf
 - https://decentralize.today/5-benefits-of-cryptocurrency-a-new-economy-for-the-future-925747434103
-- Automated Bitcoin Trading via Machine Learning Algorithms - Technical Paper By - Isaac Madan, Department of Computer Science - Stanford University, Stanford, CA 94305- imadan@stanford.edu; Shaurya Saluja, Department of Computer Science - Stanford University- Stanford, CA 94305, shaurya@stanford.edu ; Aojia Zhao - Department of Computer Science, Stanford University - Stanford, CA 94305, aojia93@stanford.edu
-- Trading Bitcoin and Online Time Series Prediction -  Technical Paper By -  Muhammad J Amjad mamjad@mit.edu, Operations Research Center - Massachusetts Institute of Technology - Cambridge, MA 02139, USA ; Devavrat Shah devavrat@mit.edu - Department of Electrical Engineering and Computer Science - Massachusetts Institute of Technology - Cambridge, MA 02139, USA
-- Predicting the price of Bitcoin using Machine Learning - MSc Reseach Project Report - Data Analytics - Sean McNally - x15021581 - School of Computing - National College of Ireland - Supervisor: Dr. Jason Roche
+- http://seoulai.com/presentations/Trading_Bitcoin_and_Online_Time_Series_Prediction.pdf
+- http://ai2-s2-pdfs.s3.amazonaws.com/e065/3631b4a476abf5276a264f6bbff40b132061.pdf
+- http://trap.ncirl.ie/2496/1/seanmcnally.pdf
 
 ## Milestone 1 - Business Understanding
 
