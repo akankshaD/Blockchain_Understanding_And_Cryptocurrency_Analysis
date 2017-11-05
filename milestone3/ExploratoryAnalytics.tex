@@ -18,7 +18,7 @@
 
 \begin{titlepage}
 	\centering
-	\includegraphics[width=0.15\textwidth]{IIIT-B_logo.jpg}\par\vspace{1cm}
+	%\includegraphics[width=0.15\textwidth]\par\vspace{1cm}
 	{\scshape\LARGE International Institute of Information Technology, Bangalore \par}
 	\vspace{1cm}
 	{\scshape\Large Project Strategy Document\par}
@@ -68,7 +68,7 @@ Time series classification is to build a classification model based on labelled 
 \subsection{Selecting Appropriate Classification
 Technique }
 
-\subsubsection {Supervised versus Unsupervised learning} This is one of the most fundamental distinctions between learning methods. Supervised learning involves developing descriptions froma pre-classified set of training examples, where the classifications are assigned by an expert in the problem domain. The aim is to produce descriptions that will accurately classify unseen test examples. In unsupervised learning, no prior classification is provided, and it is up to the learning scheme itself to generate one based on its analysis of the training data. \newline
+\subsubsection {Supervised versus Unsupervised learning} This is one of the most fundamental distinctions between learning methods. Supervised learning involves developing descriptions from pre-classified set of training examples, where the classifications are assigned by an expert in the problem domain. The aim is to produce descriptions that will accurately classify unseen test examples. In unsupervised learning, no prior classification is provided, and it is up to the learning scheme itself to generate one based on its analysis of the training data. \newline
 
 We have used Supervised Learning Model for classification of our dataset.In machine learning, support vector machines (SVMs, also support vector networks) are supervised learning models with associated learning algorithms that analyze data used for classification and regression analysis. 
 
@@ -79,9 +79,34 @@ We have used Supervised Learning Model for classification of our dataset.In mach
 
 We have considered the Bitcoin Dataset which has 24 features or attributes in it. We have extracted 17 important features and build a subset of the data. We have further classified our data into training and test data. 70 percentage of data is classified as Training and the rest as testing data. We have used SVM Algorithmn to build the model based on the trainng data and predicted the Market\textunderscore Price based on Model built and Test Data
 
+\subsubsection{Random Forest}
+Cryptocurrency data is similar to stock analysis data. As discussed in paper by Luckyson, Snehasu, Sudeepa, Random Forest has been used to predict the stock prices.
+Random Forest is an ensemble learning method for classification and regression by considering lot of decision trees at training time and specifying the class based on the mode of the classes as identified by different trees.
+Here the Random Forest is applied on bitcoin\_dataset to predict the bitcoin market price.
+ 
+\subsubsection{Linear Regression}
+Linear Regression is used for predictive analysis. In this case, there is a response variable whose outcome has to be predicted based on the input variables which are also called as dependent variables. Linear Regression is used with continuous type of data. We have used Linear Regression to predict the market cap based on Open Price.
+The mean square error which we got was  0.2127196982. It seems to be doing average estimation
+
+Chart below shows the predicted vs actual value.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{charts/bitcoin_market_cap_using_LR}
+	\caption{Bitcoin Market Cap Prediction based on Open Price}
+	\label{fig:Bitcoin Market Cap Prediction}
+\end{figure}
+
 \subsection {Visualizing Using Tableau}
 
 \subsection {Assessing the  Classification Model Built}
+
+\begin{thebibliography}{References}
+	\bibitem{1}
+	Predicting the direction of stock market prices
+	using random forest. Luckyson Khaidem Snehanshu Saha Sudeepa Roy Dey. khaidem90@gmail.com snehanshusaha@pes.edu sudeepar@pes.edu
+	
+\end{thebibliography}
 
 
 \end{document}
