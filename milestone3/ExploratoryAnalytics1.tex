@@ -18,7 +18,7 @@
 
 \begin{titlepage}
 	\centering
-	\includegraphics[width=0.15\textwidth]{IIIT-B_logo.jpg}\par\vspace{1cm}
+	%\includegraphics[width=0.15\textwidth]{IIIT-B_logo.jpg}\par\vspace{1cm}
 	{\scshape\LARGE International Institute of Information Technology, Bangalore \par}
 	\vspace{1cm}
 	{\scshape\Large Project Strategy Document\par}
@@ -97,6 +97,9 @@ We have chosen the names and descriptions of the 16 features that relate to the 
 
 We have considered the Bitcoin Dataset which has 24 features or attributes in it. We have extracted 16 important features and build a subset of the data as per the binary and ternary classification mentioned above. We have further classified our data into training and test data. 75 percentage of data is classified as Training and the rest as testing data. We have used the different algorithms mentioned below to build the model based on the training data and predicted the Market\textunderscore Price\textunderscore Label based on Model built and Test Data.
 
+We tried to do predictive analysis using Linear Regression on Bitcoin Price Dataset. The data is divided into training and test data. The training data is 75\% sampled
+from bitcoin\_price dataset and rest is 25\%. We have prepared a simple model of estimating Open Prices based on Market Capitalization. The independent variable is Market Capitalization and estimation is done for Open Price.
+
 \subsubsection {Support Vector Machine for Classification}
 
 “Support Vector Machine” (SVM) is a supervised machine learning algorithm which can be used for both classification or regression challenges.[4] In this algorithm, we plot each data item as a point in n-dimensional space (where n is number of features you have) with the value of each feature being the value of a particular coordinate. Then, we perform classification on them.[4] \newline
@@ -140,9 +143,34 @@ On the other side naive Bayes is also known as a bad estimator, so the probabili
 
 \end{itemize}
 
+\subsubsection{Linear Regression}
 
+Linear Regression is used for predictive analysis. In this case, there is a response variable whose outcome has to be predicted based on the input variables which are also called as dependent variables. Linear Regression is used with continuous type of data. 
+
+Pros:
+\begin{itemize}
+	\item Useful based on relationships between two quantitative continuous variables.
+\end{itemize}
+
+Cons:
+\begin{itemize}
+	\item Sensitive to outliers.
+	\item Limitations in the shapes that linear models can assume over long ranges.
+\end{itemize}
 
 \subsection {Comparing the Different Classification Models Built}
+
+\subsubsection{Linear Regression Model}
+
+The mean square error which we got was  0.2127196982.
+Figure 1 below shows the predicted vs actual value.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{charts/bitcoin_market_cap_using_LR}
+	\caption{Bitcoin Market Cap Prediction based on Open Price}
+	\label{fig:Bitcoin Market Cap Prediction}
+\end{figure}
 
 
 \subsection {Visualizing Using Tableau}
@@ -159,6 +187,11 @@ Basabi Chakraborty ;Faculty of Software and Information Science, Iwate Prefectur
 
 \bibitem{4} Article by Sunil Ray at Analytics Vidhya Website
 
+\bibitem{5} Predicting the direction of stock market prices using random forest. Luckyson Khaidem Snehanshu Saha Sudeepa Roy Dey. khaidem90@gmail.com snehanshusaha@pes.edu sudeepar@pes.edu
+
+\bibitem{5} Forecasting of Indian Stock Market Index Using Artificial Neural Network Manna Majumder1 , MD Anwar Hussian2
+
+\bibitem{6} Stock Price Prediction Using Regression Analysis Dr. P. K. Sahoo, Mr. Krishna charlapally
 
 \end{thebibliography}
 \end{document}
