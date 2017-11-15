@@ -1,3 +1,10 @@
+
+### AUTHORS - Akanksha Dwivedi - MT2016006
+### Hitesha Mukherjee - MS2016007
+### Nayna Jain - MS2017003
+### Tarini Chandrashekhar - MT2016144 
+
+
 library(e1071) 
 library(caret)
 library(caTools)
