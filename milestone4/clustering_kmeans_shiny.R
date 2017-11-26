@@ -45,16 +45,16 @@ server <- function(input, output){
     #df_scaled <- scale(ts(df))
 #    str(as.data.frame(df_scaled))
     df_scaled_df <- as.data.frame(df_scaled)
-  output$histPlot <- renderPlot({ggplot(df_scaled_df, aes(Open, High)) + geom_point()})
+  output$histPlot <- renderPlot({ggplot(df_scaled_df, aes(Open, Close)) + geom_point()})
    # return(df_scaled)
     
-    clusters <-  kmeans(df_scaled_df[,c(2,3)], 4)
+    clusters <-  kmeans(df_scaled_df[,c(2,5)], 4)
     output$plot1 <- renderPlot({
       palette(c("#E41A1C", "#377EB8", "#4DAF4A", "#984EA3",
                 "#FF7F00", "#FFFF33", "#A65628", "#F781BF", "#999999"))
       
       par(mar = c(5.1, 4.1, 0, 1))
-      plot(df_scaled_df[,c(2,3)],
+      plot(df_scaled_df[,c(2,5)],
            col = clusters$cluster,
            pch = 20, cex = 3)
       points(clusters$centers, pch = 4, cex = 4, lwd = 4)
