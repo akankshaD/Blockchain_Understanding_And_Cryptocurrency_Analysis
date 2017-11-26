@@ -1,6 +1,6 @@
 ############################################################################
 # Dataset: bitcoin_dataset.csv
-# Time Series Modelling: Univariate Analysis
+# Time Series Modelling: ARIMA on Univariate Analysis
 # Attribute: Close Price
 # Author: Nayna Jain (MS2017003)
 #############################################################################
@@ -97,7 +97,7 @@ adf.test(rev_close_dl2, alternative="stationary" )
 plot(rev_close_dl2)
 
 
-# Plotting ACF and PACF to identify p and q parameters.
+# Plotting ACF and PACF to identify p and q parameters for AR(p) and MA(q) respectively.
 # Plotting with differencing = 0 data.
 acf(rev_close_new_ma, main='ACF')
 pacf(rev_close_new_ma, main='PACF')
@@ -110,7 +110,7 @@ pacf(rev_close_dl1, main='PACF')
 acf(rev_close_dl2, main='ACF')
 pacf(rev_clsoe_dl2, main='PACF')
 
-#Generating and fitting the model
+#Generating and fitting the ARIMA model
 #Tried first with p = 3, d = 2, q = 2.
 fit <- arima(rev_deseasonal_close, order = c(3,2,2))
 tsdisplay(residuals(fit), lag.max = 45, main='(3,2,2) Model Residuals')
