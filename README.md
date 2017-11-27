@@ -37,6 +37,14 @@ Reading Literature:
 - http://ai2-s2-pdfs.s3.amazonaws.com/e065/3631b4a476abf5276a264f6bbff40b132061.pdf
 - http://trap.ncirl.ie/2496/1/seanmcnally.pdf
 
+For PCA we have referred the following links:
+http://web.missouri.edu/~huangf/data/mvnotes/Documents/pca_in_r_2.html
+
+https://rpubs.com/aaronsc32/eigenvalues-eigenvectors-r
+https://stat.ethz.ch/R-manual/R-devel/library/stats/html/cor.html
+
+https://www.analyticsvidhya.com/blog/2016/03/practical-guide-principal-component-analysis-python/
+
 ## Milestone 1 - Business Understanding
 
 ## Milestone 2
