@@ -32,8 +32,8 @@ Imputing missing data
 
 
 Normalisation of the Bitcoin and Ethereum data
-http://www.statisticshowto.com/normalized/
-http://www.dataminingblog.com/standardization-vs-normalization/
+- http://www.statisticshowto.com/normalized/
+- http://www.dataminingblog.com/standardization-vs-normalization/
 
 
 For PCA we have referred the following links:
