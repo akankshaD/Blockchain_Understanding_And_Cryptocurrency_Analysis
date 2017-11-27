@@ -1,4 +1,4 @@
-# DA_Cryptocurrency: Cryptocurrency Analysis And Blockchain Understanding
+# Project Name: Cryptocurrency Analysis And Blockchain Understanding
 
 Our Dataset:
 Top 10 cryptocurrencies
