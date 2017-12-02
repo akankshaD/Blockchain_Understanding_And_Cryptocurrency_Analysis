@@ -1,4 +1,4 @@
-# Project Name: Cryptocurrency Analysis And Blockchain Understanding
+# Project Name: Blockchain Understanding And Cryptocurrency Analysis
 
 Our Dataset:
 Top 10 cryptocurrencies
